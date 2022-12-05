@@ -519,6 +519,3103 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "\nThe default interactive shell is now zsh.\nTo update your account to use zsh, please run `chsh -s​‌​\n /bin/zsh`.\nFor more details, please visit https://support.apple.c​‌​\nom/kb/HT208050.\nMacBookenMarti2:AdventOfCode martijuanola$ ls\n2020\n2021\n2022\nREADME.md\nadvent_of_code.sublime-project\nadvent_of_code.sublime-workspace\nMacBookenMarti2:AdventOfCode martijuanola$ cd 2022    \nMacBookenMarti2:2022 martijuanola$ ls\n1p      2p\nMacBookenMarti2:2022 martijuanola$ cd 2p/             \nMacBookenMarti2:2p martijuanola$ ls\ninput2.txt      p2_1.py\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py\nTraceback (most recent call last):\n  File \"/Users/martijuanola/git_repositories/github/Ad​‌​\nventOfCode/2022/2p/p2_1.py\", line 15, in <module>\n    score = readInput('input2.txt')\n  File \"/Users/martijuanola/git_repositories/github/Ad​‌​\nventOfCode/2022/2p/p2_1.py\", line 2, in readInput\n    f = open('input1.txt', 'r')\nFileNotFoundError: [Errno 2] No such file or directory​‌​\n: 'input1.txt'\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['A', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['A', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'Z\\n']\n['B', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['A', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['A', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['A', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Y\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['A', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['A', 'Z\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Z\\n']\n['B', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['B', 'Z\\n']\n['C', 'Z\\n']\n['A', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['A', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['A', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['B', 'X\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Y\\n']\n['C', 'X\\n']\n['B', 'Y\\n']\n['C', 'X\\n']\n['C', 'X\\n']\n['C', 'Z\\n']\n['C', 'Z\\n']\n['C', 'X\\n']\nMy score:  0\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py\nC\nX\nC\nX\nC\nX\nA\nZ\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nB\nZ\nC\nZ\nC\nX\nC\nX\nC\nZ\nC\nZ\nB\nY\nC\nZ\nC\nX\nB\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nC\nZ\nB\nZ\nC\nX\nB\nY\nC\nZ\nA\nY\nC\nX\nB\nY\nA\nY\nC\nX\nC\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nA\nY\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nC\nX\nB\nY\nC\nZ\nB\nY\nB\nY\nC\nX\nC\nX\nC\nY\nB\nX\nC\nX\nC\nX\nB\nX\nC\nY\nB\nX\nB\nY\nC\nX\nC\nZ\nB\nY\nB\nY\nB\nY\nB\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nA\nY\nC\nZ\nA\nY\nC\nZ\nC\nX\nC\nZ\nB\nY\nB\nX\nC\nX\nB\nZ\nC\nX\nC\nY\nC\nX\nC\nX\nC\nZ\nC\nZ\nC\nZ\nB\nZ\nC\nY\nB\nY\nB\nY\nB\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nA\nY\nB\nX\nC\nX\nC\nX\nC\nX\nA\nY\nB\nZ\nC\nX\nC\nZ\nC\nX\nA\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nZ\nB\nZ\nB\nY\nB\nY\nC\nZ\nB\nY\nB\nY\nB\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nY\nB\nY\nB\nY\nC\nZ\nA\nX\nC\nX\nC\nZ\nB\nZ\nB\nY\nC\nZ\nC\nX\nC\nX\nB\nZ\nB\nZ\nC\nX\nC\nX\nC\nX\nB\nX\nA\nY\nB\nX\nC\nX\nC\nZ\nC\nX\nC\nZ\nB\nY\nC\nX\nB\nY\nA\nY\nA\nY\nA\nY\nB\nY\nC\nX\nC\nY\nB\nY\nA\nY\nC\nZ\nA\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nX\nA\nX\nC\nZ\nC\nX\nC\nX\nC\nY\nC\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nX\nC\nX\nB\nY\nB\nX\nC\nY\nC\nX\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nB\nX\nB\nY\nC\nY\nC\nX\nC\nX\nB\nX\nC\nX\nC\nX\nB\nY\nA\nY\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nA\nZ\nC\nX\nC\nY\nA\nZ\nC\nZ\nC\nZ\nB\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nB\nY\nB\nZ\nC\nX\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nA\nY\nB\nX\nB\nX\nB\nY\nB\nZ\nC\nX\nB\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nA\nX\nC\nY\nA\nZ\nC\nX\nA\nZ\nB\nZ\nC\nX\nB\nX\nB\nY\nA\nY\nB\nX\nC\nX\nB\nY\nB\nX\nC\nZ\nB\nY\nB\nX\nA\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nA\nY\nB\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nZ\nB\nZ\nB\nX\nA\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nB\nY\nB\nY\nB\nZ\nB\nY\nC\nZ\nC\nX\nC\nZ\nC\nX\nC\nZ\nC\nX\nC\nX\nA\nY\nC\nZ\nB\nY\nA\nY\nB\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nX\nA\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nB\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nY\nC\nZ\nC\nZ\nC\nX\nC\nX\nC\nZ\nA\nY\nC\nZ\nC\nX\nB\nZ\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nB\nZ\nB\nZ\nA\nY\nB\nZ\nC\nZ\nC\nX\nC\nY\nB\nY\nA\nY\nC\nX\nA\nY\nA\nZ\nB\nZ\nA\nY\nC\nX\nC\nZ\nA\nY\nB\nY\nB\nY\nC\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nB\nY\nB\nX\nC\nZ\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nY\nC\nX\nB\nZ\nC\nY\nB\nY\nB\nY\nC\nX\nA\nY\nC\nX\nA\nZ\nA\nY\nB\nX\nC\nX\nB\nY\nC\nX\nB\nY\nB\nY\nC\nZ\nC\nZ\nA\nY\nC\nX\nA\nY\nC\nZ\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nX\nC\nX\nB\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nZ\nB\nY\nC\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nZ\nC\nX\nC\nY\nC\nX\nC\nY\nC\nZ\nC\nX\nB\nY\nC\nX\nB\nX\nB\nY\nC\nZ\nB\nY\nB\nZ\nB\nZ\nC\nX\nA\nX\nC\nX\nC\nZ\nC\nY\nC\nX\nB\nX\nC\nY\nA\nY\nC\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nB\nX\nA\nY\nC\nX\nC\nX\nC\nX\nB\nY\nB\nY\nB\nZ\nC\nZ\nC\nZ\nB\nX\nC\nX\nB\nZ\nC\nX\nB\nY\nB\nY\nC\nZ\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nZ\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nA\nY\nC\nZ\nB\nZ\nB\nZ\nC\nZ\nC\nX\nC\nY\nC\nX\nA\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nY\nB\nX\nB\nY\nA\nY\nB\nY\nC\nX\nC\nX\nC\nZ\nB\nY\nC\nX\nC\nY\nC\nY\nA\nZ\nB\nY\nC\nX\nB\nX\nA\nY\nB\nY\nB\nY\nC\nZ\nA\nX\nC\nX\nA\nY\nC\nZ\nC\nZ\nB\nX\nA\nY\nC\nY\nB\nY\nC\nX\nA\nY\nB\nY\nC\nX\nC\nX\nA\nY\nB\nY\nC\nZ\nC\nX\nC\nZ\nA\nX\nA\nZ\nC\nX\nC\nZ\nC\nX\nC\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nB\nY\nC\nZ\nC\nX\nB\nZ\nB\nX\nC\nX\nC\nX\nB\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nY\nB\nX\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nY\nB\nY\nC\nZ\nC\nX\nA\nZ\nA\nY\nC\nX\nC\nZ\nC\nZ\nA\nZ\nB\nY\nA\nZ\nC\nZ\nB\nZ\nB\nY\nC\nX\nB\nY\nC\nX\nB\nY\nA\nY\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nA\nZ\nB\nX\nC\nX\nC\nX\nC\nX\nC\nZ\nB\nY\nC\nX\nB\nY\nB\nY\nB\nY\nC\nX\nC\nY\nB\nZ\nC\nX\nB\nY\nB\nX\nC\nX\nC\nX\nB\nY\nC\nX\nB\nX\nC\nX\nC\nX\nA\nZ\nC\nX\nA\nZ\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nZ\nB\nY\nC\nX\nB\nY\nC\nZ\nB\nX\nC\nX\nA\nY\nC\nY\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nZ\nC\nZ\nC\nX\nC\nX\nB\nZ\nB\nZ\nA\nZ\nB\nY\nB\nY\nB\nY\nA\nX\nC\nX\nB\nX\nB\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nX\nB\nX\nB\nY\nB\nY\nB\nY\nB\nX\nC\nX\nC\nZ\nB\nY\nB\nY\nA\nY\nA\nY\nC\nX\nC\nX\nC\nX\nB\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nX\nB\nX\nB\nX\nA\nY\nB\nZ\nC\nZ\nB\nZ\nA\nX\nC\nX\nB\nX\nC\nX\nB\nZ\nC\nZ\nB\nX\nB\nY\nC\nZ\nC\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nA\nZ\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nY\nA\nY\nC\nZ\nB\nX\nB\nX\nC\nX\nC\nX\nC\nZ\nA\nY\nC\nZ\nC\nX\nB\nY\nB\nY\nB\nZ\nB\nY\nC\nX\nB\nX\nC\nX\nC\nX\nB\nY\nC\nY\nC\nZ\nC\nX\nC\nZ\nB\nY\nC\nY\nB\nY\nB\nX\nC\nY\nB\nX\nC\nX\nC\nX\nB\nZ\nC\nY\nB\nY\nB\nY\nB\nZ\nC\nY\nB\nX\nB\nY\nC\nZ\nA\nY\nB\nY\nB\nY\nA\nZ\nC\nX\nC\nZ\nB\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nB\nX\nC\nX\nC\nZ\nC\nZ\nB\nY\nB\nX\nB\nZ\nB\nZ\nB\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nA\nY\nB\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nZ\nB\nX\nC\nY\nC\nZ\nB\nZ\nC\nX\nC\nX\nB\nY\nC\nZ\nB\nY\nC\nX\nC\nX\nB\nY\nB\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nA\nY\nC\nY\nC\nX\nC\nX\nB\nY\nB\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nZ\nA\nY\nC\nX\nC\nZ\nB\nY\nC\nZ\nB\nX\nA\nX\nC\nX\nC\nZ\nC\nY\nB\nY\nC\nX\nC\nZ\nC\nZ\nB\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nA\nY\nB\nY\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nX\nB\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nA\nZ\nC\nX\nC\nZ\nB\nY\nC\nZ\nC\nY\nC\nX\nC\nY\nC\nX\nC\nX\nC\nZ\nB\nY\nB\nY\nB\nZ\nB\nY\nC\nZ\nC\nX\nC\nZ\nB\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nY\nC\nX\nC\nX\nB\nX\nC\nX\nB\nY\nB\nX\nB\nX\nB\nY\nB\nY\nB\nZ\nC\nZ\nA\nY\nB\nX\nB\nY\nC\nZ\nC\nY\nC\nX\nC\nX\nC\nZ\nA\nY\nC\nX\nC\nZ\nC\nX\nB\nX\nB\nZ\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nZ\nB\nX\nB\nY\nC\nZ\nB\nZ\nB\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nX\nC\nX\nB\nY\nB\nZ\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nC\nY\nB\nY\nA\nY\nC\nX\nC\nX\nC\nX\nC\nY\nC\nX\nC\nZ\nA\nY\nB\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nB\nY\nC\nZ\nC\nZ\nC\nY\nC\nZ\nC\nX\nB\nY\nB\nY\nC\nX\nB\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nX\nC\nZ\nB\nY\nB\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nC\nX\nB\nY\nC\nY\nB\nY\nC\nX\nB\nY\nC\nX\nB\nY\nC\nX\nB\nZ\nC\nX\nB\nX\nB\nX\nB\nY\nB\nX\nB\nZ\nC\nX\nB\nY\nC\nX\nB\nZ\nB\nY\nC\nX\nC\nY\nC\nZ\nA\nZ\nC\nX\nC\nX\nB\nY\nA\nX\nC\nX\nB\nZ\nC\nZ\nB\nX\nC\nX\nC\nX\nB\nY\nB\nZ\nA\nZ\nA\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nA\nY\nB\nY\nB\nY\nC\nX\nB\nZ\nC\nZ\nC\nX\nC\nX\nB\nZ\nC\nZ\nB\nY\nC\nZ\nC\nY\nC\nZ\nB\nY\nC\nZ\nB\nZ\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nY\nC\nX\nB\nX\nA\nX\nB\nX\nC\nX\nC\nZ\nC\nZ\nC\nZ\nB\nY\nB\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nA\nY\nC\nZ\nA\nY\nC\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nY\nB\nX\nC\nX\nC\nZ\nC\nZ\nA\nZ\nB\nY\nC\nY\nB\nY\nC\nZ\nC\nX\nA\nZ\nC\nX\nB\nX\nB\nZ\nC\nX\nB\nY\nC\nY\nC\nX\nB\nX\nC\nZ\nC\nZ\nC\nZ\nC\nX\nC\nX\nC\nX\nA\nY\nC\nZ\nB\nX\nB\nX\nB\nY\nB\nX\nA\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nB\nX\nA\nX\nB\nY\nC\nX\nC\nZ\nB\nX\nA\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nA\nX\nC\nX\nB\nZ\nC\nX\nC\nZ\nC\nZ\nB\nZ\nC\nZ\nC\nX\nB\nY\nC\nX\nB\nY\nC\nY\nB\nY\nC\nY\nB\nY\nC\nX\nB\nX\nC\nY\nC\nX\nC\nX\nB\nY\nC\nY\nA\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nB\nY\nB\nY\nC\nX\nB\nY\nB\nX\nC\nY\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nY\nC\nX\nB\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nX\nC\nZ\nC\nZ\nB\nZ\nC\nZ\nC\nX\nC\nX\nC\nZ\nC\nZ\nB\nX\nC\nY\nC\nY\nC\nX\nC\nX\nB\nZ\nC\nZ\nB\nY\nB\nY\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nZ\nA\nZ\nB\nY\nC\nZ\nC\nX\nA\nX\nA\nZ\nB\nY\nB\nY\nB\nY\nB\nY\nC\nZ\nB\nX\nC\nX\nB\nY\nB\nY\nC\nX\nB\nY\nB\nY\nC\nZ\nC\nX\nB\nY\nC\nY\nC\nX\nC\nZ\nC\nX\nA\nY\nC\nX\nC\nX\nC\nZ\nA\nX\nB\nY\nB\nY\nB\nZ\nB\nY\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nZ\nC\nX\nB\nX\nC\nZ\nC\nZ\nB\nY\nB\nY\nC\nX\nB\nY\nB\nX\nC\nX\nA\nY\nB\nY\nB\nY\nC\nX\nC\nZ\nB\nX\nC\nX\nC\nZ\nA\nZ\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nB\nX\nB\nY\nB\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nC\nZ\nB\nX\nC\nZ\nC\nX\nB\nZ\nC\nX\nA\nY\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nB\nY\nC\nZ\nC\nZ\nB\nX\nC\nX\nA\nX\nC\nX\nC\nX\nB\nX\nC\nZ\nB\nY\nB\nX\nC\nX\nC\nX\nB\nY\nC\nZ\nC\nY\nB\nY\nC\nY\nB\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nZ\nB\nY\nB\nY\nA\nZ\nB\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nX\nC\nZ\nA\nY\nC\nZ\nC\nX\nC\nZ\nC\nX\nC\nZ\nC\nZ\nA\nZ\nA\nY\nA\nY\nC\nZ\nC\nX\nA\nX\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nB\nX\nB\nZ\nC\nX\nC\nZ\nB\nY\nC\nZ\nB\nY\nC\nZ\nB\nZ\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nB\nX\nC\nZ\nC\nZ\nB\nY\nA\nZ\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nZ\nA\nZ\nC\nX\nC\nX\nB\nX\nC\nX\nC\nX\nB\nZ\nB\nY\nB\nY\nB\nX\nC\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nX\nC\nX\nA\nZ\nC\nZ\nA\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nX\nB\nY\nC\nZ\nB\nZ\nC\nY\nC\nX\nC\nX\nB\nZ\nB\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nY\nC\nX\nB\nY\nB\nY\nB\nY\nC\nX\nC\nX\nB\nX\nC\nY\nB\nY\nC\nX\nB\nZ\nC\nX\nC\nX\nB\nZ\nC\nZ\nB\nX\nB\nZ\nC\nZ\nB\nZ\nC\nX\nB\nY\nC\nX\nC\nY\nA\nY\nB\nX\nB\nY\nB\nZ\nC\nX\nB\nZ\nA\nY\nC\nZ\nC\nZ\nC\nY\nB\nY\nB\nY\nB\nZ\nC\nX\nC\nX\nA\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nA\nY\nC\nX\nC\nZ\nC\nZ\nC\nX\nB\nZ\nC\nX\nC\nX\nA\nY\nB\nZ\nC\nY\nA\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nA\nY\nA\nY\nC\nZ\nB\nZ\nB\nX\nC\nX\nC\nX\nC\nX\nA\nZ\nB\nY\nC\nZ\nC\nZ\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nX\nC\nZ\nC\nX\nB\nY\nB\nZ\nC\nX\nC\nX\nB\nY\nC\nZ\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nB\nY\nA\nZ\nB\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nB\nY\nB\nX\nC\nZ\nB\nY\nB\nX\nC\nX\nC\nX\nA\nY\nC\nZ\nC\nX\nC\nX\nC\nZ\nB\nZ\nB\nY\nB\nY\nB\nZ\nC\nX\nA\nY\nB\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nC\nY\nB\nY\nB\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nZ\nA\nY\nC\nX\nC\nY\nB\nY\nB\nY\nB\nX\nC\nX\nC\nX\nB\nX\nC\nX\nC\nX\nC\nX\nB\nX\nC\nX\nC\nZ\nC\nX\nA\nX\nB\nY\nC\nZ\nB\nY\nC\nZ\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nB\nX\nA\nX\nA\nZ\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nB\nX\nB\nX\nB\nY\nB\nZ\nC\nZ\nC\nX\nC\nZ\nB\nX\nC\nX\nB\nY\nB\nX\nB\nY\nB\nY\nC\nY\nC\nX\nB\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nZ\nA\nX\nC\nX\nC\nX\nB\nX\nC\nY\nC\nX\nB\nY\nC\nX\nC\nX\nA\nY\nA\nX\nC\nX\nB\nZ\nC\nX\nA\nX\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nY\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nX\nB\nX\nB\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nA\nY\nB\nX\nB\nY\nC\nX\nC\nX\nB\nX\nB\nY\nC\nZ\nB\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nA\nY\nA\nZ\nC\nZ\nA\nY\nB\nY\nB\nY\nC\nY\nC\nX\nC\nY\nC\nX\nB\nY\nC\nX\nC\nZ\nA\nY\nB\nX\nC\nZ\nB\nZ\nC\nZ\nA\nZ\nA\nX\nB\nY\nB\nY\nC\nX\nC\nY\nB\nY\nB\nY\nB\nY\nC\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nB\nY\nC\nY\nC\nY\nA\nY\nB\nY\nB\nY\nC\nX\nB\nX\nB\nX\nC\nX\nB\nY\nA\nX\nC\nZ\nC\nZ\nC\nX\nA\nX\nB\nY\nC\nY\nB\nY\nC\nZ\nC\nZ\nB\nY\nB\nX\nB\nY\nB\nX\nB\nX\nC\nY\nC\nY\nB\nZ\nB\nY\nC\nX\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nB\nY\nB\nY\nC\nX\nC\nX\nC\nZ\nB\nY\nA\nY\nB\nY\nB\nY\nB\nX\nC\nX\nC\nZ\nC\nX\nC\nZ\nC\nX\nB\nZ\nC\nZ\nC\nX\nB\nY\nA\nY\nC\nX\nA\nY\nB\nY\nC\nY\nA\nX\nC\nX\nB\nZ\nC\nX\nB\nY\nA\nZ\nC\nX\nC\nZ\nC\nZ\nC\nX\nA\nY\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nZ\nB\nZ\nB\nY\nB\nY\nC\nZ\nA\nY\nC\nX\nB\nX\nC\nZ\nC\nX\nB\nY\nA\nY\nB\nY\nB\nY\nC\nX\nC\nY\nB\nZ\nB\nY\nB\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nA\nY\nB\nY\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nZ\nA\nZ\nB\nX\nC\nZ\nB\nX\nC\nX\nC\nZ\nB\nY\nB\nZ\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nY\nB\nY\nC\nX\nA\nX\nA\nX\nC\nX\nC\nX\nB\nX\nC\nX\nC\nZ\nB\nY\nC\nZ\nC\nZ\nC\nX\nA\nY\nA\nZ\nC\nX\nC\nX\nB\nY\nB\nY\nB\nY\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nB\nX\nB\nY\nB\nX\nB\nY\nA\nY\nC\nX\nB\nX\nC\nX\nC\nY\nC\nZ\nC\nY\nC\nZ\nC\nX\nA\nY\nC\nX\nB\nY\nC\nZ\nC\nZ\nC\nX\nB\nY\nB\nY\nB\nY\nC\nX\nA\nX\nC\nX\nB\nX\nC\nY\nC\nX\nB\nY\nC\nZ\nC\nX\nC\nZ\nC\nZ\nC\nZ\nA\nY\nB\nY\nB\nY\nC\nX\nA\nY\nC\nY\nB\nY\nC\nX\nB\nZ\nB\nY\nC\nX\nB\nY\nC\nZ\nB\nY\nC\nZ\nC\nX\nB\nZ\nC\nZ\nC\nZ\nB\nX\nC\nX\nC\nY\nB\nX\nB\nY\nC\nX\nA\nX\nB\nY\nC\nZ\nB\nY\nC\nX\nC\nX\nB\nX\nC\nX\nB\nY\nC\nX\nB\nY\nC\nZ\nC\nZ\nC\nX\nC\nX\nA\nY\nB\nY\nC\nY\nB\nY\nB\nY\nB\nY\nC\nX\nC\nY\nA\nX\nA\nY\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nY\nB\nZ\nB\nX\nC\nX\nA\nY\nC\nX\nC\nY\nC\nZ\nB\nX\nC\nX\nC\nZ\nC\nY\nC\nX\nC\nZ\nC\nX\nC\nZ\nB\nY\nB\nZ\nC\nX\nA\nY\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nB\nZ\nC\nX\nC\nX\nC\nX\nB\nZ\nA\nY\nB\nX\nB\nY\nB\nY\nB\nY\nB\nY\nC\nX\nC\nZ\nB\nZ\nC\nZ\nC\nX\nB\nY\nC\nX\nB\nY\nA\nY\nC\nY\nB\nX\nB\nZ\nC\nX\nC\nX\nC\nX\nA\nY\nB\nX\nB\nZ\nC\nX\nC\nZ\nB\nY\nC\nZ\nC\nX\nB\nY\nB\nZ\nC\nY\nC\nY\nC\nX\nC\nX\nB\nZ\nB\nY\nA\nY\nC\nZ\nB\nY\nB\nY\nA\nZ\nC\nX\nB\nY\nA\nY\nC\nX\nC\nZ\nB\nY\nC\nX\nA\nZ\nC\nX\nB\nZ\nB\nY\nC\nZ\nB\nY\nC\nX\nB\nX\nB\nY\nC\nX\nB\nY\nC\nX\nC\nY\nB\nY\nB\nX\nC\nX\nC\nY\nC\nX\nB\nY\nC\nY\nC\nX\nC\nX\nB\nY\nB\nY\nB\nX\nC\nX\nB\nX\nA\nY\nC\nX\nB\nY\nC\nY\nC\nZ\nC\nX\nB\nZ\nB\nX\nC\nX\nC\nX\nC\nZ\nC\nZ\nB\nY\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nA\nY\nC\nZ\nC\nX\nA\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nB\nY\nC\nX\nB\nY\nB\nZ\nC\nX\nC\nX\nB\nY\nA\nZ\nC\nX\nC\nX\nC\nX\nA\nY\nB\nY\nC\nX\nC\nY\nC\nZ\nA\nX\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nB\nY\nB\nX\nB\nX\nC\nX\nC\nZ\nB\nY\nB\nY\nC\nZ\nB\nY\nA\nY\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nZ\nA\nY\nC\nX\nB\nZ\nC\nZ\nB\nZ\nC\nZ\nC\nX\nB\nY\nA\nZ\nC\nX\nC\nZ\nB\nY\nB\nY\nC\nX\nC\nZ\nA\nX\nB\nX\nB\nY\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nX\nC\nZ\nA\nY\nC\nX\nA\nX\nC\nX\nC\nX\nB\nX\nC\nZ\nB\nY\nB\nY\nC\nZ\nB\nY\nB\nY\nC\nX\nC\nX\nB\nZ\nB\nY\nB\nY\nC\nX\nA\nX\nC\nX\nB\nY\nC\nX\nB\nY\nC\nZ\nA\nZ\nC\nX\nC\nZ\nC\nY\nB\nY\nC\nX\nC\nZ\nC\nZ\nB\nY\nB\nZ\nB\nX\nC\nZ\nC\nZ\nB\nZ\nB\nZ\nB\nY\nC\nX\nB\nY\nB\nY\nB\nX\nB\nY\nC\nX\nC\nZ\nC\nZ\nB\nY\nB\nY\nB\nZ\nC\nX\nC\nZ\nC\nZ\nC\nZ\nC\nX\nC\nX\nB\nY\nC\nX\nB\nY\nB\nY\nC\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nA\nZ\nC\nX\nA\nX\nA\nY\nB\nY\nC\nX\nB\nY\nB\nY\nC\nY\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nA\nY\nB\nY\nC\nZ\nC\nZ\nC\nX\nA\nY\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nZ\nC\nY\nB\nY\nC\nX\nB\nY\nB\nY\nC\nY\nC\nX\nB\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nB\nY\nB\nZ\nC\nZ\nC\nX\nC\nZ\nB\nY\nA\nZ\nC\nX\nC\nZ\nB\nZ\nA\nZ\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nY\nB\nY\nC\nX\nC\nZ\nB\nZ\nB\nX\nC\nY\nC\nX\nB\nY\nC\nX\nB\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nZ\nC\nZ\nB\nX\nC\nX\nB\nY\nC\nX\nB\nY\nB\nX\nC\nX\nA\nY\nC\nX\nC\nX\nC\nZ\nB\nY\nC\nX\nB\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nB\nY\nC\nX\nB\nX\nC\nZ\nC\nX\nB\nY\nC\nX\nC\nX\nC\nX\nA\nY\nB\nZ\nC\nZ\nA\nZ\nC\nX\nB\nX\nC\nZ\nC\nY\nB\nZ\nC\nX\nB\nY\nB\nZ\nC\nX\nC\nZ\nB\nX\nC\nX\nC\nZ\nC\nX\nB\nY\nB\nX\nB\nY\nB\nY\nC\nY\nC\nY\nC\nY\nC\nX\nB\nY\nB\nY\nC\nX\nC\nX\nC\nY\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nX\nB\nX\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nZ\nC\nY\nC\nZ\nC\nZ\nB\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nB\nY\nC\nX\nC\nX\nC\nX\nA\nY\nA\nX\nC\nZ\nC\nZ\nC\nX\nC\nX\nB\nX\nB\nY\nC\nX\nC\nY\nB\nY\nB\nY\nC\nX\nC\nZ\nC\nX\nC\nZ\nB\nX\nC\nX\nC\nX\nB\nY\nB\nY\nB\nY\nC\nX\nC\nX\nC\nX\nC\nZ\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nY\nC\nX\nA\nY\nC\nX\nC\nX\nB\nX\nC\nX\nC\nX\nB\nZ\nC\nX\nC\nX\nC\nZ\nC\nZ\nC\nX\nC\nY\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nC\nX\nC\nY\nC\nZ\nC\nX\nC\nX\nC\nX\nC\nX\nB\nY\nB\nX\nC\nX\nC\nX\nC\nY\nC\nX\nB\nY\nC\nX\nC\nX\nC\nZ\nC\nZ\nC\nX\nMy score:  0\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py\n  File \"/Users/martijuanola/git_repositories/github/Ad​‌​\nventOfCode/2022/2p/p2_1.py\", line 29\n    return return 6\n           ^^^^^^\nSyntaxError: invalid syntax\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py\nMy score:  14745\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py dummy2.txt                                                     \n  File \"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/2p/p2_1.py\", line 50\n    parser.add_argument('--input', default='input2.txt', help='Input file')\n                                                                           ^\nIndentationError: unindent does not match any outer indentation level\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py dummy2.txt \n  File \"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/2p/p2_1.py\", line 50\n    parser.add_argument('--input', default='input2.txt', help='Input file')\n                                                                           ^\nIndentationError: unindent does not match any outer indentation level\nMacBookenMarti2:2p martijuanola$ \nMacBookenMarti2:2p martijuanola$ python3 p2_1.py dummy2.txt \nusage: p2_1.py [-h] [--input INPUT]\np2_1.py: error: unrecognized arguments: dummy2.txt\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py --input dummy2.txt                                              \nMy score:  16\nMacBookenMarti2:2p martijuanola$                      \nMacBookenMarti2:2p martijuanola$ python3 p2_1.py --inp​‌​\nut dummy2.txt                                          \n8\n10\n16\nMy score:  16\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py --inp​‌​\nut dummy2.txt \n8\n9\n15\nMy score:  15\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py --inp​‌​\nut                                                    \nusage: p2_1.py [-h] [--input INPUT]\np2_1.py: error: argument --input: expected one argumen​‌​\nt\nMacBookenMarti2:2p martijuanola$ python3 p2_1.py      \nMy score:  14375                                      \nMacBookenMarti2:2p martijuanola$ ",
+			"settings":
+			{
+				"buffer_size": 45631,
+				"line_ending": "Unix",
+				"name": "Login Shell",
+				"scratch": true
+			}
+		},
+		{
+			"file": "2022/2p/p2_1.py",
+			"settings":
+			{
+				"buffer_size": 1083,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "1.1"
+					},
+					"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAMS4x",
+					"AQAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAbwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAANAAAAaW1wb3J0IHF1ZXVlCg",
+					"AQAAAAAAAAABAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAC8BAAAAAAAAMAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"left_delete",
+					null,
+					"AQAAABsBAAAAAAAAGwEAAAAAAAABAAAAcQ",
+					"AQAAAAAAAAABAAAAHAEAAAAAAAAcAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BQAAABsBAAAAAAAAHAEAAAAAAAAAAAAAHAEAAAAAAAAdAQAAAAAAAAAAAAAdAQAAAAAAAB4BAAAAAAAAAAAAAB4BAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAgAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGwEAAAAAAAAbAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "M"
+					},
+					"AgAAAEMBAAAAAAAARAEAAAAAAAAAAAAARAEAAAAAAABEAQAAAAAAABAAAABUb3AgZWxmIGNhbG9yaWVz",
+					"AQAAAAAAAAABAAAAQwEAAAAAAABTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "y"
+					},
+					"AQAAAEQBAAAAAAAARQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAEAAAAAAABEAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": " score"
+					},
+					"BgAAAEUBAAAAAAAARgEAAAAAAAAAAAAARgEAAAAAAABHAQAAAAAAAAAAAABHAQAAAAAAAEgBAAAAAAAAAAAAAEgBAAAAAAAASQEAAAAAAAAAAAAASQEAAAAAAABKAQAAAAAAAAAAAABKAQAAAAAAAEsBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQEAAAAAAABFAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BgAAAFABAAAAAAAAUQEAAAAAAAAAAAAAUQEAAAAAAABRAQAAAAAAAAsAAAAtcS5nZXQoKVswXVEBAAAAAAAAUgEAAAAAAAAAAAAAUgEAAAAAAABTAQAAAAAAAAAAAABTAQAAAAAAAFQBAAAAAAAAAAAAAFQBAAAAAAAAVQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAEAAAAAAABbAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BgAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABWAAAAAAAAABIAAABlbGYgPSAwCgllbGZJRCA9IDBWAAAAAAAAAFcAAAAAAAAAAAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFwAAAAAAAAAXQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": "0;"
+					},
+					"AgAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF4AAAAAAAAAXgAAAAAAAAABAAAAOw",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					85,
+					1,
+					"left_delete",
+					null,
+					"AQAAABsAAAAAAAAAGwAAAAAAAAAbAAAAcSA9IHF1ZXVlLlByaW9yaXR5UXVldWUoKQoJ",
+					"AQAAAAAAAAABAAAAGwAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					1,
+					"left_delete",
+					null,
+					"AQAAABoAAAAAAAAAGgAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"left_delete",
+					null,
+					"AQAAABkAAAAAAAAAGQAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEIAAAAAAAAAQgAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAGRA"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAALcAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC5AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					108,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM0AAAAAAAAAzQAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAzgAAAAAAAADOAAAAAAAAAAAAAAAAAEdA"
+				],
+				[
+					111,
+					1,
+					"left_delete",
+					null,
+					"AQAAANYAAAAAAAAA1gAAAAAAAAABAAAAcQ",
+					"AQAAAAAAAAABAAAA1wAAAAAAAADXAAAAAAAAAAAAAAAAoGJA"
+				],
+				[
+					112,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BQAAANYAAAAAAAAA1wAAAAAAAAAAAAAA1wAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANkAAAAAAAAAAAAAANkAAAAAAAAA2gAAAAAAAAAAAAAA2gAAAAAAAADbAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gAAAAAAAADWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFUAAAAAAAAAVQAAAAAAAABfAAAAaWYgbGluZSAhPSAnXG4nOgoJCQllbGYgKz0gaW50KGxpbmUpCgkJZWxzZToKCQkJcS5wdXQoKC1lbGYsIGVsZklEKzEpKQoJCQllbGYgPSAwCgkJCWVsZklEICs9IDE",
+					"AQAAAAAAAAABAAAAVQAAAAAAAAC0AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					122,
+					1,
+					"insert",
+					{
+						"characters": "for"
+					},
+					"AwAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
+					1,
+					"insert",
+					{
+						"characters": " word"
+					},
+					"BQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": " in"
+					},
+					"AwAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAABfAAAAAAAAAGAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					126,
+					1,
+					"insert",
+					{
+						"characters": " line"
+					},
+					"BQAAAGAAAAAAAAAAYQAAAAAAAAAAAAAAYQAAAAAAAABiAAAAAAAAAAAAAABiAAAAAAAAAGMAAAAAAAAAAAAAAGMAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABlAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					130,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFUAAAAAAAAAVQAAAAAAAAAQAAAAZm9yIHdvcmQgaW4gbGluZQ",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					132,
+					1,
+					"insert",
+					{
+						"characters": "line."
+					},
+					"BQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					133,
+					5,
+					"left_delete",
+					null,
+					"BQAAAFkAAAAAAAAAWQAAAAAAAAABAAAALlgAAAAAAAAAWAAAAAAAAAABAAAAZVcAAAAAAAAAVwAAAAAAAAABAAAAblYAAAAAAAAAVgAAAAAAAAABAAAAaVUAAAAAAAAAVQAAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					134,
+					1,
+					"insert",
+					{
+						"characters": "words"
+					},
+					"BQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					135,
+					5,
+					"left_delete",
+					null,
+					"BQAAAFkAAAAAAAAAWQAAAAAAAAABAAAAc1gAAAAAAAAAWAAAAAAAAAABAAAAZFcAAAAAAAAAVwAAAAAAAAABAAAAclYAAAAAAAAAVgAAAAAAAAABAAAAb1UAAAAAAAAAVQAAAAAAAAABAAAAdw",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					136,
+					1,
+					"insert",
+					{
+						"characters": "words.s"
+					},
+					"BwAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAFsAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					137,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFsAAAAAAAAAWwAAAAAAAAABAAAAc1oAAAAAAAAAWgAAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					138,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					139,
+					1,
+					"insert",
+					{
+						"characters": " lie"
+					},
+					"BAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					140,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF8AAAAAAAAAXwAAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					141,
+					1,
+					"insert",
+					{
+						"characters": "ne.split"
+					},
+					"CAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGUAAAAAAAAAAAAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAZgAAAAAAAABnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					142,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAGcAAAAAAAAAaQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					145,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAGgAAAAAAAAAagAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					146,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGkAAAAAAAAAagAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					160,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAGwAAAAAAAAAbQAAAAAAAAAAAAAAbQAAAAAAAABvAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					162,
+					1,
+					"insert",
+					{
+						"characters": "print"
+					},
+					"BQAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAABxAAAAAAAAAHIAAAAAAAAAAAAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbwAAAAAAAABvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					164,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAHQAAAAAAAAAdgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					165,
+					1,
+					"insert",
+					{
+						"characters": "words"
+					},
+					"BQAAAHUAAAAAAAAAdgAAAAAAAAAAAAAAdgAAAAAAAAB3AAAAAAAAAAAAAAB3AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAeQAAAAAAAAAAAAAAeQAAAAAAAAB6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdQAAAAAAAAB1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					187,
+					1,
+					"paste",
+					null,
+					"AgAAACQAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtAAAAAAAAAAwAAAAnaW5wdXQxLnR4dCc",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					200,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					203,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEAAAAAAAAAAQAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAEdA"
+				],
+				[
+					217,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AgAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAACcAAAB3b3JkcyA9IGxpbmUuc3BsaXQoIiAiKQoJCXByaW50KHdvcmRzKQo",
+					"AQAAAAAAAAABAAAAegAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					1,
+					"insert",
+					{
+						"characters": "y"
+					},
+					"AQAAAFQAAAAAAAAAVQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					221,
+					1,
+					"insert",
+					{
+						"characters": "Play"
+					},
+					"BAAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					223,
+					1,
+					"insert",
+					{
+						"characters": " line"
+					},
+					"BQAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAF4AAAAAAAAAXwAAAAAAAAAAAAAAXwAAAAAAAABgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					225,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAGAAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					229,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAAGEAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					234,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAGQAAAAAAAAAdwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwAAAAAAAABjAAAAAAAAAP///////+9/"
+				],
+				[
+					238,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAHUAAAAAAAAAdgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdQAAAAAAAAB1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					239,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHUAAAAAAAAAdQAAAAAAAAABAAAAMnQAAAAAAAAAdAAAAAAAAAABAAAAMA",
+					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAHQAAAAAAAAAdQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					245,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGcAAAAAAAAAZwAAAAAAAAABAAAAeQ",
+					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					247,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGYAAAAAAAAAZgAAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					249,
+					1,
+					"insert",
+					{
+						"characters": "his"
+					},
+					"AwAAAGYAAAAAAAAAZwAAAAAAAAAAAAAAZwAAAAAAAABoAAAAAAAAAAAAAABoAAAAAAAAAGkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZgAAAAAAAABmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					256,
+					1,
+					"insert",
+					{
+						"characters": "his"
+					},
+					"BAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAAAIAAABteVQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					260,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AgAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABoAAAAAAAAAAMAAABoaXM",
+					"AQAAAAAAAAABAAAAagAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					262,
+					1,
+					"insert",
+					{
+						"characters": "y"
+					},
+					"AQAAAGgAAAAAAAAAaQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					269,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					272,
+					1,
+					"insert",
+					{
+						"characters": "print"
+					},
+					"BQAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAB/AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					273,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAH8AAAAAAAAAgQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					274,
+					1,
+					"insert",
+					{
+						"characters": "his"
+					},
+					"AwAAAIAAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAACCAAAAAAAAAIMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					275,
+					1,
+					"insert_completion",
+					{
+						"completion": "hisPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "hisPlay"
+					},
+					"AgAAAIAAAAAAAAAAgAAAAAAAAAADAAAAaGlzgAAAAAAAAACHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwAAAAAAAACDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					277,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAIkAAAAAAAAAmgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAAAAAAAAACIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					281,
+					4,
+					"left_delete",
+					null,
+					"BAAAAJMAAAAAAAAAkwAAAAAAAAABAAAAc5IAAAAAAAAAkgAAAAAAAAABAAAAaZEAAAAAAAAAkQAAAAAAAAABAAAAaJAAAAAAAAAAkAAAAAAAAAABAAAAKA",
+					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					282,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAJAAAAAAAAAAkQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					283,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJAAAAAAAAAAkAAAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAkQAAAAAAAACRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					284,
+					1,
+					"insert",
+					{
+						"characters": "(my"
+					},
+					"AwAAAJAAAAAAAAAAkQAAAAAAAAAAAAAAkQAAAAAAAACSAAAAAAAAAAAAAACSAAAAAAAAAJMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					294,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHoAAAAAAAAAegAAAAAAAAAeAAAAcHJpbnQoaGlzUGxheSkKCQlwcmludChteVBsYXkp",
+					"AQAAAAAAAAABAAAAmAAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					300,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAAoQAAAAAAAAChAAAAAAAAAAEAAAAJ",
+					"AQAAAAAAAAABAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					301,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKIAAAAAAAAAogAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAowAAAAAAAACjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					302,
+					1,
+					"insert",
+					{
+						"characters": "def"
+					},
+					"AwAAAKIAAAAAAAAAowAAAAAAAAAAAAAAowAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAogAAAAAAAACiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					305,
+					1,
+					"insert",
+					{
+						"characters": " s"
+					},
+					"AgAAAKUAAAAAAAAApgAAAAAAAAAAAAAApgAAAAAAAACnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					306,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKYAAAAAAAAApgAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					308,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAKYAAAAAAAAApwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApgAAAAAAAACmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					310,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKYAAAAAAAAApgAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					312,
+					1,
+					"insert",
+					{
+						"characters": "optino"
+					},
+					"BgAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAACrAAAAAAAAAKwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApgAAAAAAAACmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					313,
+					2,
+					"left_delete",
+					null,
+					"AgAAAKsAAAAAAAAAqwAAAAAAAAABAAAAb6oAAAAAAAAAqgAAAAAAAAABAAAAbg",
+					"AQAAAAAAAAABAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					314,
+					1,
+					"insert",
+					{
+						"characters": "onPlayed"
+					},
+					"CAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAAqwAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAAK0AAAAAAAAAAAAAAK0AAAAAAAAArgAAAAAAAAAAAAAArgAAAAAAAACvAAAAAAAAAAAAAACvAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAsQAAAAAAAAAAAAAAsQAAAAAAAACyAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqgAAAAAAAACqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					315,
+					1,
+					"insert",
+					{
+						"characters": "Score"
+					},
+					"BQAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAALUAAAAAAAAAtgAAAAAAAAAAAAAAtgAAAAAAAAC3AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					316,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAALcAAAAAAAAAuQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					320,
+					1,
+					"insert",
+					{
+						"characters": "shape"
+					},
+					"BQAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC6AAAAAAAAAAAAAAC6AAAAAAAAALsAAAAAAAAAAAAAALsAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAAC9AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					323,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAL4AAAAAAAAAvwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvgAAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					324,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					326,
+					1,
+					"insert",
+					{
+						"characters": "if"
+					},
+					"AgAAAMEAAAAAAAAAwgAAAAAAAAAAAAAAwgAAAAAAAADDAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					327,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAMMAAAAAAAAAxQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					329,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMMAAAAAAAAAxAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					331,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMUAAAAAAAAAxQAAAAAAAAABAAAAKcQAAAAAAAAAxAAAAAAAAAABAAAAKA",
+					"AQAAAAAAAAABAAAAxgAAAAAAAADGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					332,
+					1,
+					"insert",
+					{
+						"characters": "shape"
+					},
+					"BQAAAMQAAAAAAAAAxQAAAAAAAAAAAAAAxQAAAAAAAADGAAAAAAAAAAAAAADGAAAAAAAAAMcAAAAAAAAAAAAAAMcAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADJAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					333,
+					1,
+					"insert",
+					{
+						"characters": " =="
+					},
+					"AwAAAMkAAAAAAAAAygAAAAAAAAAAAAAAygAAAAAAAADLAAAAAAAAAAAAAADLAAAAAAAAAMwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					334,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMwAAAAAAAAAzQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					336,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAM0AAAAAAAAAzwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQAAAAAAAADNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					338,
+					1,
+					"insert",
+					{
+						"characters": "A"
+					},
+					"AQAAAM4AAAAAAAAAzwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgAAAAAAAADOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					341,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAANAAAAAAAAAA0QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AAAAAAAAADQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					343,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAANEAAAAAAAAA0gAAAAAAAAAAAAAA0gAAAAAAAADTAAAAAAAAAAAAAADTAAAAAAAAANQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QAAAAAAAADRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					346,
+					1,
+					"insert",
+					{
+						"characters": "return"
+					},
+					"BgAAANQAAAAAAAAA1QAAAAAAAAAAAAAA1QAAAAAAAADWAAAAAAAAAAAAAADWAAAAAAAAANcAAAAAAAAAAAAAANcAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADZAAAAAAAAAAAAAADZAAAAAAAAANoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					347,
+					1,
+					"insert",
+					{
+						"characters": " 1"
+					},
+					"AgAAANoAAAAAAAAA2wAAAAAAAAAAAAAA2wAAAAAAAADcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gAAAAAAAADaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					348,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADfAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					350,
+					1,
+					"left_delete",
+					null,
+					"AQAAAN4AAAAAAAAA3gAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA3wAAAAAAAADfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					351,
+					1,
+					"insert",
+					{
+						"characters": "elif"
+					},
+					"BAAAAN4AAAAAAAAA3wAAAAAAAAAAAAAA3wAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOEAAAAAAAAAAAAAAOEAAAAAAAAA4gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3gAAAAAAAADeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					352,
+					1,
+					"insert",
+					{
+						"characters": " shape"
+					},
+					"BgAAAOIAAAAAAAAA4wAAAAAAAAAAAAAA4wAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOUAAAAAAAAAAAAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA5gAAAAAAAADnAAAAAAAAAAAAAADnAAAAAAAAAOgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gAAAAAAAADiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					353,
+					1,
+					"insert",
+					{
+						"characters": " =="
+					},
+					"AwAAAOgAAAAAAAAA6QAAAAAAAAAAAAAA6QAAAAAAAADqAAAAAAAAAAAAAADqAAAAAAAAAOsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					354,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOsAAAAAAAAA7AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					355,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAOwAAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					356,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AQAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					357,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO0AAAAAAAAA7QAAAAAAAAABAAAAYg",
+					"AQAAAAAAAAABAAAA7gAAAAAAAADuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					358,
+					1,
+					"insert",
+					{
+						"characters": "B"
+					},
+					"AQAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					360,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAO8AAAAAAAAA8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7wAAAAAAAADvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					361,
+					1,
+					"insert",
+					{
+						"characters": "\nreturn"
+					},
+					"CQAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAADyAAAAAAAAAAAAAADyAAAAAAAAAPMAAAAAAAAAAAAAAPMAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD1AAAAAAAAAAAAAAD1AAAAAAAAAPYAAAAAAAAAAAAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA9wAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					362,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPkAAAAAAAAA+gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					364,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAPoAAAAAAAAA+wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					365,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPsAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAD+AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+wAAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					367,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP0AAAAAAAAA/QAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA/gAAAAAAAAD+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					368,
+					1,
+					"insert",
+					{
+						"characters": "els"
+					},
+					"AwAAAP0AAAAAAAAA/gAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAAAAABAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					369,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP8AAAAAAAAA/wAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					371,
+					1,
+					"insert",
+					{
+						"characters": "if"
+					},
+					"AgAAAP8AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					372,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAABAAAAAAAAAAEAAAAAAAABAAAAZv8AAAAAAAAA/wAAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAAQEAAAAAAAABAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					373,
+					1,
+					"insert",
+					{
+						"characters": "se:"
+					},
+					"AwAAAP8AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABAQAAAAAAAAAAAAABAQAAAAAAAAIBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					374,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAAIBAAAAAAAAAwEAAAAAAAAAAAAAAwEAAAAAAAAEAQAAAAAAAAAAAAAEAQAAAAAAAAUBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAgEAAAAAAAACAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					376,
+					1,
+					"insert",
+					{
+						"characters": "return"
+					},
+					"BgAAAAUBAAAAAAAABgEAAAAAAAAAAAAABgEAAAAAAAAHAQAAAAAAAAAAAAAHAQAAAAAAAAgBAAAAAAAAAAAAAAgBAAAAAAAACQEAAAAAAAAAAAAACQEAAAAAAAAKAQAAAAAAAAAAAAAKAQAAAAAAAAsBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABQEAAAAAAAAFAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					377,
+					1,
+					"insert",
+					{
+						"characters": " 6"
+					},
+					"AgAAAAsBAAAAAAAADAEAAAAAAAAAAAAADAEAAAAAAAANAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACwEAAAAAAAALAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					382,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPoAAAAAAAAA+gAAAAAAAAABAAAAMw",
+					"AQAAAAAAAAABAAAA+wAAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					383,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAPoAAAAAAAAA+wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					385,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAwBAAAAAAAADAEAAAAAAAABAAAANg",
+					"AQAAAAAAAAABAAAADQEAAAAAAAANAQAAAAAAAAAAAAAA4GZA"
+				],
+				[
+					386,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAAwBAAAAAAAADQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAEAAAAAAAAMAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					392,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					395,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BQAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAB/AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					396,
+					1,
+					"insert",
+					{
+						"characters": " +="
+					},
+					"AwAAAH8AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACBAAAAAAAAAAAAAACBAAAAAAAAAIIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					397,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIIAAAAAAAAAgwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAggAAAAAAAACCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					399,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AQAAAIMAAAAAAAAAhAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwAAAAAAAACDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					401,
+					1,
+					"insert",
+					{
+						"characters": "y"
+					},
+					"AQAAAIQAAAAAAAAAhQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhAAAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					403,
+					1,
+					"insert_completion",
+					{
+						"completion": "myPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myPlay"
+					},
+					"AgAAAIMAAAAAAAAAgwAAAAAAAAACAAAAbXmDAAAAAAAAAIkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQAAAAAAAACFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					405,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIgAAAAAAAAAiAAAAAAAAAABAAAAeQ",
+					"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					407,
+					5,
+					"left_delete",
+					null,
+					"BQAAAIcAAAAAAAAAhwAAAAAAAAABAAAAYYYAAAAAAAAAhgAAAAAAAAABAAAAbIUAAAAAAAAAhQAAAAAAAAABAAAAUIQAAAAAAAAAhAAAAAAAAAABAAAAeYMAAAAAAAAAgwAAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAAiAAAAAAAAACIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					410,
+					1,
+					"insert",
+					{
+						"characters": "shaped"
+					},
+					"BwAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAACzAAAAAAAAAAYAAABvcHRpb26zAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtQAAAAAAAAAAAAAAtQAAAAAAAAC2AAAAAAAAAAAAAAC2AAAAAAAAALcAAAAAAAAAAAAAALcAAAAAAAAAuAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					412,
+					1,
+					"left_delete",
+					null,
+					"AQAAALcAAAAAAAAAtwAAAAAAAAABAAAAZA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					421,
+					1,
+					"paste",
+					null,
+					"AQAAAIMAAAAAAAAAkwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwAAAAAAAACDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					424,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAJMAAAAAAAAAlQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					426,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAJQAAAAAAAAAlQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					428,
+					1,
+					"insert",
+					{
+						"characters": "ha"
+					},
+					"AgAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					429,
+					3,
+					"left_delete",
+					null,
+					"AwAAAJYAAAAAAAAAlgAAAAAAAAABAAAAYZUAAAAAAAAAlQAAAAAAAAABAAAAaJQAAAAAAAAAlAAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					430,
+					1,
+					"insert",
+					{
+						"characters": "my"
+					},
+					"AgAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					431,
+					1,
+					"insert_completion",
+					{
+						"completion": "myPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myPlay"
+					},
+					"AgAAAJQAAAAAAAAAlAAAAAAAAAACAAAAbXmUAAAAAAAAAJoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					434,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACeAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					436,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BQAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKEAAAAAAAAAAAAAAKEAAAAAAAAAogAAAAAAAAAAAAAAogAAAAAAAACjAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngAAAAAAAACeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					437,
+					1,
+					"insert",
+					{
+						"characters": " +="
+					},
+					"AwAAAKMAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAAClAAAAAAAAAAAAAAClAAAAAAAAAKYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAowAAAAAAAACjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					438,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKYAAAAAAAAApwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApgAAAAAAAACmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					441,
+					1,
+					"insert",
+					{
+						"characters": "resu"
+					},
+					"BAAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					442,
+					4,
+					"left_delete",
+					null,
+					"BAAAAKoAAAAAAAAAqgAAAAAAAAABAAAAdakAAAAAAAAAqQAAAAAAAAABAAAAc6gAAAAAAAAAqAAAAAAAAAABAAAAZacAAAAAAAAApwAAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					443,
+					1,
+					"insert",
+					{
+						"characters": "rau"
+					},
+					"AwAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					444,
+					2,
+					"left_delete",
+					null,
+					"AgAAAKkAAAAAAAAAqQAAAAAAAAABAAAAdagAAAAAAAAAqAAAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAqgAAAAAAAACqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					445,
+					1,
+					"insert",
+					{
+						"characters": "oundResults"
+					},
+					"CwAAAKgAAAAAAAAAqQAAAAAAAAAAAAAAqQAAAAAAAACqAAAAAAAAAAAAAACqAAAAAAAAAKsAAAAAAAAAAAAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAACtAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALEAAAAAAAAAAAAAALEAAAAAAAAAsgAAAAAAAAAAAAAAsgAAAAAAAACzAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqAAAAAAAAACoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					446,
+					1,
+					"insert",
+					{
+						"characters": "Score"
+					},
+					"BQAAALMAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC1AAAAAAAAAAAAAAC1AAAAAAAAALYAAAAAAAAAAAAAALYAAAAAAAAAtwAAAAAAAAAAAAAAtwAAAAAAAAC4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswAAAAAAAACzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					447,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAALgAAAAAAAAAugAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					448,
+					1,
+					"insert",
+					{
+						"characters": "myPlay,"
+					},
+					"BwAAALkAAAAAAAAAugAAAAAAAAAAAAAAugAAAAAAAAC7AAAAAAAAAAAAAAC7AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvQAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					449,
+					1,
+					"insert",
+					{
+						"characters": " his"
+					},
+					"BAAAAMAAAAAAAAAAwQAAAAAAAAAAAAAAwQAAAAAAAADCAAAAAAAAAAAAAADCAAAAAAAAAMMAAAAAAAAAAAAAAMMAAAAAAAAAxAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					450,
+					1,
+					"insert",
+					{
+						"characters": " p"
+					},
+					"AgAAAMQAAAAAAAAAxQAAAAAAAAAAAAAAxQAAAAAAAADGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					451,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMUAAAAAAAAAxQAAAAAAAAABAAAAcMQAAAAAAAAAxAAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAxgAAAAAAAADGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					452,
+					1,
+					"insert",
+					{
+						"characters": "Pl"
+					},
+					"AgAAAMQAAAAAAAAAxQAAAAAAAAAAAAAAxQAAAAAAAADGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					453,
+					1,
+					"insert_completion",
+					{
+						"completion": "hisPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "hisPlay"
+					},
+					"AgAAAMEAAAAAAAAAwQAAAAAAAAAFAAAAaGlzUGzBAAAAAAAAAMgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxgAAAAAAAADGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					466,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAF4BAAAAAAAAXwEAAAAAAAAAAAAAXwEAAAAAAABhAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgEAAAAAAABeAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					468,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGABAAAAAAAAYAEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAYQEAAAAAAABhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					470,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF8BAAAAAAAAXwEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAYAEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					472,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAF8BAAAAAAAAYAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwEAAAAAAABfAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					473,
+					1,
+					"paste",
+					null,
+					"AQAAAGABAAAAAAAAggEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					479,
+					1,
+					"insert",
+					{
+						"characters": "d"
+					},
+					"AQAAAGABAAAAAAAAYQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAEAAAAAAABgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					481,
+					1,
+					"insert",
+					{
+						"characters": "ef"
+					},
+					"AgAAAGEBAAAAAAAAYgEAAAAAAAAAAAAAYgEAAAAAAABjAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQEAAAAAAABhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					482,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGMBAAAAAAAAZAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwEAAAAAAABjAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					485,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAIYBAAAAAAAAhwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhgEAAAAAAACGAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					486,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAIcBAAAAAAAAiAEAAAAAAAAAAAAAiAEAAAAAAACJAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhwEAAAAAAACHAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					495,
+					1,
+					"insert",
+					{
+						"characters": "if"
+					},
+					"AgAAAIkBAAAAAAAAigEAAAAAAAAAAAAAigEAAAAAAACLAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					497,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIsBAAAAAAAAjAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiwEAAAAAAACLAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					510,
+					1,
+					"paste",
+					null,
+					"AQAAAIwBAAAAAAAAkgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjAEAAAAAAACMAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					512,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAJIBAAAAAAAAkwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgEAAAAAAACSAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					514,
+					1,
+					"insert",
+					{
+						"characters": "=="
+					},
+					"AgAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkwEAAAAAAACTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					515,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAJUBAAAAAAAAlgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlQEAAAAAAACVAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					516,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAJYBAAAAAAAAmAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					529,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB8BAAAAAAAAHwEAAAAAAAABAAAAQQ",
+					"AQAAAAAAAAABAAAAIAEAAAAAAAAgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					530,
+					1,
+					"insert",
+					{
+						"characters": "x"
+					},
+					"AQAAAB8BAAAAAAAAIAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwEAAAAAAAAfAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					540,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB8BAAAAAAAAHwEAAAAAAAABAAAAeA",
+					"AQAAAAAAAAABAAAAIAEAAAAAAAAgAQAAAAAAAAAAAAAAwGlA"
+				],
+				[
+					541,
+					1,
+					"insert",
+					{
+						"characters": "X"
+					},
+					"AQAAAB8BAAAAAAAAIAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwEAAAAAAAAfAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					548,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD4BAAAAAAAAPgEAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAAPwEAAAAAAAA/AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					549,
+					1,
+					"insert",
+					{
+						"characters": "Y"
+					},
+					"AQAAAD4BAAAAAAAAPwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPgEAAAAAAAA+AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					557,
+					1,
+					"cut",
+					null,
+					"AQAAAH4BAAAAAAAAfgEAAAAAAAAHAAAAaGlzUGxheQ",
+					"AQAAAAAAAAABAAAAfgEAAAAAAACFAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					560,
+					2,
+					"left_delete",
+					null,
+					"AgAAAH0BAAAAAAAAfQEAAAAAAAABAAAAIHwBAAAAAAAAfAEAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAAfgEAAAAAAAB+AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					564,
+					1,
+					"paste",
+					null,
+					"AQAAAHYBAAAAAAAAfQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdgEAAAAAAAB2AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					575,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAH0BAAAAAAAAfgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfQEAAAAAAAB9AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					576,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAH4BAAAAAAAAfwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgEAAAAAAAB+AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					581,
+					1,
+					"cut",
+					null,
+					"AQAAAMEAAAAAAAAAwQAAAAAAAAAHAAAAaGlzUGxheQ",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					582,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMAAAAAAAAAAwAAAAAAAAAABAAAAIL8AAAAAAAAAvwAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					586,
+					1,
+					"paste",
+					null,
+					"AQAAALkAAAAAAAAAwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					587,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMAAAAAAAAAAwQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					588,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMAAAAAAAAAAwAAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					589,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAMAAAAAAAAAAwQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					590,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMEAAAAAAAAAwgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					605,
+					1,
+					"paste",
+					null,
+					"AgAAAIwBAAAAAAAAkwEAAAAAAAAAAAAAkwEAAAAAAACTAQAAAAAAAAYAAABteVBsYXk",
+					"AQAAAAAAAAABAAAAjAEAAAAAAACSAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					609,
+					1,
+					"insert",
+					{
+						"characters": "A"
+					},
+					"AQAAAJgBAAAAAAAAmQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					613,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAJoBAAAAAAAAmwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgEAAAAAAACaAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					615,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAJsBAAAAAAAAnAEAAAAAAAAAAAAAnAEAAAAAAACdAQAAAAAAAAAAAACdAQAAAAAAAJ4BAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwEAAAAAAACbAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					618,
+					1,
+					"insert",
+					{
+						"characters": "if"
+					},
+					"AgAAAJ4BAAAAAAAAnwEAAAAAAAAAAAAAnwEAAAAAAACgAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngEAAAAAAACeAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					619,
+					1,
+					"insert",
+					{
+						"characters": " my"
+					},
+					"AwAAAKABAAAAAAAAoQEAAAAAAAAAAAAAoQEAAAAAAACiAQAAAAAAAAAAAACiAQAAAAAAAKMBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoAEAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					620,
+					1,
+					"insert_completion",
+					{
+						"completion": "myPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myPlay"
+					},
+					"AgAAAKEBAAAAAAAAoQEAAAAAAAACAAAAbXmhAQAAAAAAAKcBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAowEAAAAAAACjAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					622,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKcBAAAAAAAAqAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					624,
+					1,
+					"insert",
+					{
+						"characters": "=="
+					},
+					"AgAAAKgBAAAAAAAAqQEAAAAAAAAAAAAAqQEAAAAAAACqAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqAEAAAAAAACoAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					625,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKoBAAAAAAAAqwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqgEAAAAAAACqAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					626,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAKsBAAAAAAAArQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwEAAAAAAACrAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					627,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAAKsBAAAAAAAAqwEAAAAAAAABAAAAIqsBAAAAAAAAqwEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAArAEAAAAAAACsAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					628,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAKsBAAAAAAAArQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwEAAAAAAACrAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					629,
+					1,
+					"insert",
+					{
+						"characters": "X"
+					},
+					"AQAAAKwBAAAAAAAArQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAEAAAAAAACsAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					631,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAK4BAAAAAAAArwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					632,
+					1,
+					"left_delete",
+					null,
+					"AQAAAK4BAAAAAAAArgEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAArwEAAAAAAACvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					633,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAK4BAAAAAAAArwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					634,
+					1,
+					"insert",
+					{
+						"characters": "\nretr"
+					},
+					"BwAAAK8BAAAAAAAAsAEAAAAAAAAAAAAAsAEAAAAAAACyAQAAAAAAAAAAAACyAQAAAAAAALMBAAAAAAAAAAAAALMBAAAAAAAAtAEAAAAAAAAAAAAAtAEAAAAAAAC1AQAAAAAAAAAAAAC1AQAAAAAAALYBAAAAAAAAAAAAALYBAAAAAAAAtwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArwEAAAAAAACvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					635,
+					1,
+					"left_delete",
+					null,
+					"AQAAALYBAAAAAAAAtgEAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAtwEAAAAAAAC3AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					636,
+					1,
+					"insert",
+					{
+						"characters": "urn"
+					},
+					"AwAAALYBAAAAAAAAtwEAAAAAAAAAAAAAtwEAAAAAAAC4AQAAAAAAAAAAAAC4AQAAAAAAALkBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgEAAAAAAAC2AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					637,
+					1,
+					"insert",
+					{
+						"characters": " 1"
+					},
+					"AgAAALkBAAAAAAAAugEAAAAAAAAAAAAAugEAAAAAAAC7AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQEAAAAAAAC5AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					640,
+					1,
+					"left_delete",
+					null,
+					"AQAAALoBAAAAAAAAugEAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAuwEAAAAAAAC7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					642,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAALoBAAAAAAAAuwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugEAAAAAAAC6AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					644,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAALsBAAAAAAAAvAEAAAAAAAAAAAAAvAEAAAAAAAC/AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuwEAAAAAAAC7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					646,
+					1,
+					"left_delete",
+					null,
+					"AQAAAL4BAAAAAAAAvgEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAvwEAAAAAAAC/AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					649,
+					1,
+					"insert",
+					{
+						"characters": "elif"
+					},
+					"BAAAAL4BAAAAAAAAvwEAAAAAAAAAAAAAvwEAAAAAAADAAQAAAAAAAAAAAADAAQAAAAAAAMEBAAAAAAAAAAAAAMEBAAAAAAAAwgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvgEAAAAAAAC+AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					650,
+					1,
+					"insert",
+					{
+						"characters": " m"
+					},
+					"AgAAAMIBAAAAAAAAwwEAAAAAAAAAAAAAwwEAAAAAAADEAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgEAAAAAAADCAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					651,
+					1,
+					"insert_completion",
+					{
+						"completion": "myPlay",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myPlay"
+					},
+					"AgAAAMMBAAAAAAAAwwEAAAAAAAABAAAAbcMBAAAAAAAAyQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAEAAAAAAADEAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					652,
+					1,
+					"insert",
+					{
+						"characters": " =="
+					},
+					"AwAAAMkBAAAAAAAAygEAAAAAAAAAAAAAygEAAAAAAADLAQAAAAAAAAAAAADLAQAAAAAAAMwBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQEAAAAAAADJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					653,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMwBAAAAAAAAzQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAEAAAAAAADMAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					654,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAM0BAAAAAAAAzwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQEAAAAAAADNAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					655,
+					1,
+					"insert",
+					{
+						"characters": "Y"
+					},
+					"AQAAAM4BAAAAAAAAzwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgEAAAAAAADOAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					657,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAANABAAAAAAAA0QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AEAAAAAAADQAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					658,
+					1,
+					"insert",
+					{
+						"characters": "\nreturn"
+					},
+					"CQAAANEBAAAAAAAA0gEAAAAAAAAAAAAA0gEAAAAAAADUAQAAAAAAAAAAAADUAQAAAAAAANUBAAAAAAAAAAAAANUBAAAAAAAA1gEAAAAAAAAAAAAA1gEAAAAAAADXAQAAAAAAAAAAAADXAQAAAAAAANgBAAAAAAAAAAAAANgBAAAAAAAA2QEAAAAAAAAAAAAA2QEAAAAAAADaAQAAAAAAAAAAAADaAQAAAAAAANsBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QEAAAAAAADRAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					659,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANsBAAAAAAAA3AEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wEAAAAAAADbAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					662,
+					1,
+					"insert",
+					{
+						"characters": "retur"
+					},
+					"BQAAANwBAAAAAAAA3QEAAAAAAAAAAAAA3QEAAAAAAADeAQAAAAAAAAAAAADeAQAAAAAAAN8BAAAAAAAAAAAAAN8BAAAAAAAA4AEAAAAAAAAAAAAA4AEAAAAAAADhAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AEAAAAAAADcAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					663,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOEBAAAAAAAA4gEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QEAAAAAAADhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					664,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOEBAAAAAAAA4QEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA4gEAAAAAAADiAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					665,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAAOEBAAAAAAAA4gEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QEAAAAAAADhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					666,
+					1,
+					"insert",
+					{
+						"characters": " 6"
+					},
+					"AgAAAOIBAAAAAAAA4wEAAAAAAAAAAAAA4wEAAAAAAADkAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gEAAAAAAADiAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					667,
+					1,
+					"insert",
+					{
+						"characters": "\ne"
+					},
+					"AwAAAOQBAAAAAAAA5QEAAAAAAAAAAAAA5QEAAAAAAADoAQAAAAAAAAAAAADoAQAAAAAAAOkBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AEAAAAAAADkAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					668,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOgBAAAAAAAA6AEAAAAAAAABAAAAZecBAAAAAAAA5wEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA6QEAAAAAAADpAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					669,
+					1,
+					"insert",
+					{
+						"characters": "else"
+					},
+					"BAAAAOcBAAAAAAAA6AEAAAAAAAAAAAAA6AEAAAAAAADpAQAAAAAAAAAAAADpAQAAAAAAAOoBAAAAAAAAAAAAAOoBAAAAAAAA6wEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wEAAAAAAADnAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					671,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAOsBAAAAAAAA7AEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wEAAAAAAADrAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					672,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOwBAAAAAAAA7QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AEAAAAAAADsAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					673,
+					1,
+					"insert",
+					{
+						"characters": "\nreturj"
+					},
+					"CQAAAO0BAAAAAAAA7gEAAAAAAAAAAAAA7gEAAAAAAADwAQAAAAAAAAAAAADwAQAAAAAAAPEBAAAAAAAAAAAAAPEBAAAAAAAA8gEAAAAAAAAAAAAA8gEAAAAAAADzAQAAAAAAAAAAAADzAQAAAAAAAPQBAAAAAAAAAAAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA9QEAAAAAAAD2AQAAAAAAAAAAAAD2AQAAAAAAAPcBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QEAAAAAAADtAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					674,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPcBAAAAAAAA+AEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9wEAAAAAAAD3AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					675,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPcBAAAAAAAA9wEAAAAAAAABAAAAIPYBAAAAAAAA9gEAAAAAAAABAAAAag",
+					"AQAAAAAAAAABAAAA+AEAAAAAAAD4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					676,
+					1,
+					"insert",
+					{
+						"characters": "n1"
+					},
+					"AgAAAPYBAAAAAAAA9wEAAAAAAAAAAAAA9wEAAAAAAAD4AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9gEAAAAAAAD2AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					677,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPgBAAAAAAAA+QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+AEAAAAAAAD4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					679,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPgBAAAAAAAA+AEAAAAAAAABAAAAIPcBAAAAAAAA9wEAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAA+QEAAAAAAAD5AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					680,
+					1,
+					"insert",
+					{
+						"characters": " 1"
+					},
+					"AgAAAPcBAAAAAAAA+AEAAAAAAAAAAAAA+AEAAAAAAAD5AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9wEAAAAAAAD3AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					681,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPkBAAAAAAAA+gEAAAAAAAAAAAAA+gEAAAAAAAD9AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QEAAAAAAAD5AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					684,
+					1,
+					"unindent",
+					null,
+					"AQAAAPoBAAAAAAAA+gEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA/QEAAAAAAAD9AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					686,
+					1,
+					"unindent",
+					null,
+					"AQAAAPoBAAAAAAAA+gEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA/AEAAAAAAAD8AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					688,
+					1,
+					"insert",
+					{
+						"characters": "elif"
+					},
+					"BAAAAPsBAAAAAAAA/AEAAAAAAAAAAAAA/AEAAAAAAAD9AQAAAAAAAAAAAAD9AQAAAAAAAP4BAAAAAAAAAAAAAP4BAAAAAAAA/wEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+wEAAAAAAAD7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					694,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AgAAAP8BAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAAAIAAAAAAAD/AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					696,
+					1,
+					"paste",
+					null,
+					"AQAAAAACAAAAAAAADwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					698,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BgAAAA8CAAAAAAAAEAIAAAAAAAAAAAAAEAIAAAAAAAARAgAAAAAAAAAAAAARAgAAAAAAABICAAAAAAAAAAAAABICAAAAAAAAEwIAAAAAAAAAAAAAEwIAAAAAAAAVAgAAAAAAAAAAAAAQAgAAAAAAABACAAAAAAAAAgAAAAkJ",
+					"AQAAAAAAAAABAAAADwIAAAAAAAAPAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					704,
+					1,
+					"left_delete",
+					null,
+					"AgAAAAwCAAAAAAAADAIAAAAAAAABAAAAQRACAAAAAAAAEAIAAAAAAAACAAAACQk",
+					"AQAAAAAAAAABAAAADQIAAAAAAAANAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					705,
+					1,
+					"insert",
+					{
+						"characters": "B"
+					},
+					"AQAAAAwCAAAAAAAADQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAIAAAAAAAAMAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					712,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAA8CAAAAAAAAEAIAAAAAAAAAAAAAEAIAAAAAAAARAgAAAAAAAAAAAAARAgAAAAAAABICAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADwIAAAAAAAAPAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					714,
+					1,
+					"paste",
+					null,
+					"AQAAABICAAAAAAAAbQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEgIAAAAAAAASAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					720,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4CAAAAAAAALgIAAAAAAAABAAAAMw",
+					"AQAAAAAAAAABAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					721,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAC4CAAAAAAAALwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgIAAAAAAAAuAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					725,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFcCAAAAAAAAVwIAAAAAAAABAAAANg",
+					"AQAAAAAAAAABAAAAWAIAAAAAAABYAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					726,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAFcCAAAAAAAAWAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwIAAAAAAABXAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					730,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGwCAAAAAAAAbAIAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAbQIAAAAAAABtAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					732,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AQAAAGwCAAAAAAAAbQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAIAAAAAAABsAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					737,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAG0CAAAAAAAAbgIAAAAAAAAAAAAAbgIAAAAAAABxAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbQIAAAAAAABtAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					739,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHACAAAAAAAAcAIAAAAAAAABAAAACW8CAAAAAAAAbwIAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAcQIAAAAAAABxAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					740,
+					1,
+					"insert",
+					{
+						"characters": "else:"
+					},
+					"BQAAAG8CAAAAAAAAcAIAAAAAAAAAAAAAcAIAAAAAAABxAgAAAAAAAAAAAABxAgAAAAAAAHICAAAAAAAAAAAAAHICAAAAAAAAcwIAAAAAAAAAAAAAcwIAAAAAAAB0AgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbwIAAAAAAABvAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					741,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAHQCAAAAAAAAdQIAAAAAAAAAAAAAdQIAAAAAAAB2AgAAAAAAAAAAAAB2AgAAAAAAAHcCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdAIAAAAAAAB0AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					743,
+					1,
+					"paste",
+					null,
+					"AQAAAHcCAAAAAAAA0gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwIAAAAAAAB3AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					752,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJMCAAAAAAAAkwIAAAAAAAABAAAAMw",
+					"AQAAAAAAAAABAAAAlAIAAAAAAACUAgAAAAAAAAAAAAAAcHBA"
+				],
+				[
+					754,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AQAAAJMCAAAAAAAAlAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkwIAAAAAAACTAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					758,
+					1,
+					"left_delete",
+					null,
+					"AQAAANECAAAAAAAA0QIAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAA0gIAAAAAAADSAgAAAAAAAAAAAAAAoGxA"
+				],
+				[
+					760,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAANECAAAAAAAA0gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QIAAAAAAADRAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					765,
+					1,
+					"left_delete",
+					null,
+					"AQAAALwCAAAAAAAAvAIAAAAAAAABAAAANg",
+					"AQAAAAAAAAABAAAAvQIAAAAAAAC9AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					767,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAALwCAAAAAAAAvQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvAIAAAAAAAC8AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					781,
+					1,
+					"left_delete",
+					null,
+					"AQAAALUCAAAAAAAAtQIAAAAAAAAGAAAAcmV0dXJu",
+					"AQAAAAAAAAABAAAAtQIAAAAAAAC7AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					783,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQCAAAAAAAAtAIAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAtQIAAAAAAAC1AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					799,
+					1,
+					"left_delete",
+					null,
+					"AgAAAFUCAAAAAAAAVQIAAAAAAAABAAAAbuEBAAAAAAAA4QEAAAAAAAABAAAAbg",
+					"AQAAAAAAAAACAAAA4gEAAAAAAADiAQAAAAAAAAAAAAAAAPC/VgIAAAAAAABWAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					801,
+					6,
+					"left_delete",
+					null,
+					"DAAAAFMCAAAAAAAAUwIAAAAAAAABAAAAcuABAAAAAAAA4AEAAAAAAAABAAAAclECAAAAAAAAUQIAAAAAAAABAAAAdd8BAAAAAAAA3wEAAAAAAAABAAAAdU8CAAAAAAAATwIAAAAAAAABAAAAdN4BAAAAAAAA3gEAAAAAAAABAAAAdE0CAAAAAAAATQIAAAAAAAABAAAAZd0BAAAAAAAA3QEAAAAAAAABAAAAZUsCAAAAAAAASwIAAAAAAAABAAAActwBAAAAAAAA3AEAAAAAAAABAAAAckkCAAAAAAAASQIAAAAAAAABAAAAINsBAAAAAAAA2wEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAACAAAA4QEAAAAAAADhAQAAAAAAAAAAAAAAAPC/VAIAAAAAAABUAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					818,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANoCAAAAAAAA2wIAAAAAAAAAAAAA2wIAAAAAAADcAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					819,
+					1,
+					"paste",
+					null,
+					"AQAAANwCAAAAAAAAcQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AIAAAAAAADcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					825,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAAHEDAAAAAAAAcgMAAAAAAAAAAAAAcgMAAAAAAACKAwAAAAAAAAAAAAByAwAAAAAAAHIDAAAAAAAAGAAAACAgICAgICAgICAgICAgICAgICAgICAgIHIDAAAAAAAAdgMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQMAAAAAAABxAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					827,
+					1,
+					"paste",
+					null,
+					"AQAAAHYDAAAAAAAAkAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdgMAAAAAAAB2AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					839,
+					1,
+					"insert",
+					{
+						"characters": "input"
+					},
+					"BgAAABoDAAAAAAAAGwMAAAAAAAAAAAAAGwMAAAAAAAAbAwAAAAAAAAQAAABwcm90GwMAAAAAAAAcAwAAAAAAAAAAAAAcAwAAAAAAAB0DAAAAAAAAAAAAAB0DAAAAAAAAHgMAAAAAAAAAAAAAHgMAAAAAAAAfAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgMAAAAAAAAeAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					854,
+					1,
+					"paste",
+					null,
+					"AgAAACsDAAAAAAAAMQMAAAAAAAAAAAAAMQMAAAAAAAAxAwAAAAAAAAoAAABwcm90b3R5cGVz",
+					"AQAAAAAAAAABAAAAKwMAAAAAAAA1AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					868,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKIDAAAAAAAAogMAAAAAAAALAAAAaW5wdXQyLnR4dCc",
+					"AQAAAAAAAAABAAAAogMAAAAAAACtAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					870,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKEDAAAAAAAAoQMAAAAAAAABAAAAJw",
+					"AQAAAAAAAAABAAAAogMAAAAAAACiAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					871,
+					1,
+					"paste",
+					null,
+					"AQAAAKEDAAAAAAAAqgMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQMAAAAAAAChAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					872,
+					4,
+					"left_delete",
+					null,
+					"BAAAAKkDAAAAAAAAqQMAAAAAAAABAAAAdKgDAAAAAAAAqAMAAAAAAAABAAAAb6cDAAAAAAAApwMAAAAAAAABAAAAcqYDAAAAAAAApgMAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAAqgMAAAAAAACqAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					873,
+					1,
+					"insert",
+					{
+						"characters": "input"
+					},
+					"BQAAAKYDAAAAAAAApwMAAAAAAAAAAAAApwMAAAAAAACoAwAAAAAAAAAAAACoAwAAAAAAAKkDAAAAAAAAAAAAAKkDAAAAAAAAqgMAAAAAAAAAAAAAqgMAAAAAAACrAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApgMAAAAAAACmAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					880,
+					2,
+					"left_delete",
+					null,
+					"AgAAADgDAAAAAAAAOAMAAAAAAAAYAAAAICAgICAgICAgICAgICAgICAgICAgICAgNwMAAAAAAAA3AwAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAUAMAAAAAAAA4AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					882,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADcDAAAAAAAAOAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwMAAAAAAAA3AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					890,
+					1,
+					"insert",
+					{
+						"characters": "I"
+					},
+					"AgAAAD4DAAAAAAAAPwMAAAAAAAAAAAAAPwMAAAAAAAA/AwAAAAAAABYAAABJbml0aWFsIHByb3RvdHBlcyBmaWxl",
+					"AQAAAAAAAAABAAAAPgMAAAAAAABUAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					892,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAAD8DAAAAAAAAQAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPwMAAAAAAAA/AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					894,
+					1,
+					"insert",
+					{
+						"characters": "p"
+					},
+					"AQAAAEADAAAAAAAAQQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAMAAAAAAABAAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					896,
+					1,
+					"insert",
+					{
+						"characters": "ut"
+					},
+					"AgAAAEEDAAAAAAAAQgMAAAAAAAAAAAAAQgMAAAAAAABDAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQMAAAAAAABBAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					897,
+					1,
+					"insert",
+					{
+						"characters": " file"
+					},
+					"BQAAAEMDAAAAAAAARAMAAAAAAAAAAAAARAMAAAAAAABFAwAAAAAAAAAAAABFAwAAAAAAAEYDAAAAAAAAAAAAAEYDAAAAAAAARwMAAAAAAAAAAAAARwMAAAAAAABIAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwMAAAAAAABDAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					904,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAGsDAAAAAAAAbAMAAAAAAAAAAAAAbAMAAAAAAABtAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawMAAAAAAABrAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					956,
+					1,
+					"left_delete",
+					null,
+					"AQAAANoCAAAAAAAA2gIAAAAAAAACAAAACgk",
+					"AQAAAAAAAAABAAAA2gIAAAAAAADcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					958,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANoCAAAAAAAA2wIAAAAAAAAAAAAA2wIAAAAAAADcAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1025,
+					1,
+					"left_delete",
+					null,
+					"LQAAAKcDAAAAAAAApwMAAAAAAAABAAAACYsDAAAAAAAAiwMAAAAAAAABAAAACWwDAAAAAAAAbAMAAAAAAAABAAAACWoDAAAAAAAAagMAAAAAAAABAAAACdsCAAAAAAAA2wIAAAAAAAABAAAACbICAAAAAAAAsgIAAAAAAAABAAAACakCAAAAAAAAqQIAAAAAAAABAAAACZ0CAAAAAAAAnQIAAAAAAAABAAAACYcCAAAAAAAAhwIAAAAAAAABAAAACXsCAAAAAAAAewIAAAAAAAABAAAACWcCAAAAAAAAZwIAAAAAAAABAAAACWACAAAAAAAAYAIAAAAAAAABAAAACVQCAAAAAAAAVAIAAAAAAAABAAAACUsCAAAAAAAASwIAAAAAAAABAAAACT8CAAAAAAAAPwIAAAAAAAABAAAACSkCAAAAAAAAKQIAAAAAAAABAAAACR0CAAAAAAAAHQIAAAAAAAABAAAACQkCAAAAAAAACQIAAAAAAAABAAAACfMBAAAAAAAA8wEAAAAAAAABAAAACecBAAAAAAAA5wEAAAAAAAABAAAACd4BAAAAAAAA3gEAAAAAAAABAAAACdIBAAAAAAAA0gEAAAAAAAABAAAACbwBAAAAAAAAvAEAAAAAAAABAAAACbABAAAAAAAAsAEAAAAAAAABAAAACZwBAAAAAAAAnAEAAAAAAAABAAAACYgBAAAAAAAAiAEAAAAAAAABAAAACVQBAAAAAAAAVAEAAAAAAAABAAAACU0BAAAAAAAATQEAAAAAAAABAAAACUIBAAAAAAAAQgEAAAAAAAABAAAACS4BAAAAAAAALgEAAAAAAAABAAAACSMBAAAAAAAAIwEAAAAAAAABAAAACREBAAAAAAAAEQEAAAAAAAABAAAACeUAAAAAAAAA5QAAAAAAAAABAAAACdoAAAAAAAAA2gAAAAAAAAABAAAACc8AAAAAAAAAzwAAAAAAAAABAAAACc0AAAAAAAAAzQAAAAAAAAABAAAACcoAAAAAAAAAygAAAAAAAAABAAAACZwAAAAAAAAAnAAAAAAAAAABAAAACXgAAAAAAAAAeAAAAAAAAAABAAAACWUAAAAAAAAAZQAAAAAAAAABAAAACVEAAAAAAAAAUQAAAAAAAAABAAAACUEAAAAAAAAAQQAAAAAAAAABAAAACTYAAAAAAAAANgAAAAAAAAABAAAACTQAAAAAAAAANAAAAAAAAAABAAAACRoAAAAAAAAAGgAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAAtAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/NQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/NwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/QgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/UgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/ZgAAAAAAAABmAAAAAAAAAAAAAAAAAPC/eQAAAAAAAAB5AAAAAAAAAAAAAAAAAPC/nQAAAAAAAACdAAAAAAAAAAAAAAAAAPC/ywAAAAAAAADLAAAAAAAAAAAAAAAAAPC/zgAAAAAAAADOAAAAAAAAAAAAAAAAAPC/0AAAAAAAAADQAAAAAAAAAAAAAAAAAPC/2wAAAAAAAADbAAAAAAAAAAAAAAAAAPC/5gAAAAAAAADmAAAAAAAAAAAAAAAAAPC/EgEAAAAAAAASAQAAAAAAAAAAAAAAAPC/JAEAAAAAAAAkAQAAAAAAAAAAAAAAAPC/LwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/QwEAAAAAAABDAQAAAAAAAAAAAAAAAPC/TgEAAAAAAABOAQAAAAAAAAAAAAAAAPC/VQEAAAAAAABVAQAAAAAAAAAAAAAAAPC/iQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/nQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/sQEAAAAAAACxAQAAAAAAAAAAAAAAAPC/vQEAAAAAAAC9AQAAAAAAAAAAAAAAAPC/0wEAAAAAAADTAQAAAAAAAAAAAAAAAPC/3wEAAAAAAADfAQAAAAAAAAAAAAAAAPC/6AEAAAAAAADoAQAAAAAAAAAAAAAAAPC/9AEAAAAAAAD0AQAAAAAAAAAAAAAAAPC/CgIAAAAAAAAKAgAAAAAAAAAAAAAAAPC/HgIAAAAAAAAeAgAAAAAAAAAAAAAAAPC/KgIAAAAAAAAqAgAAAAAAAAAAAAAAAPC/QAIAAAAAAABAAgAAAAAAAAAAAAAAAPC/TAIAAAAAAABMAgAAAAAAAAAAAAAAAPC/VQIAAAAAAABVAgAAAAAAAAAAAAAAAPC/YQIAAAAAAABhAgAAAAAAAAAAAAAAAPC/aAIAAAAAAABoAgAAAAAAAAAAAAAAAPC/fAIAAAAAAAB8AgAAAAAAAAAAAAAAAPC/iAIAAAAAAACIAgAAAAAAAAAAAAAAAPC/ngIAAAAAAACeAgAAAAAAAAAAAAAAAPC/qgIAAAAAAACqAgAAAAAAAAAAAAAAAPC/swIAAAAAAACzAgAAAAAAAAAAAAAAAPC/3AIAAAAAAADcAgAAAAAAAAAAAAAAAPC/awMAAAAAAABrAwAAAAAAAAAAAAAAAPC/bQMAAAAAAABtAwAAAAAAAAAAAAAAAPC/jAMAAAAAAACMAwAAAAAAAAAAAAAAAPC/qAMAAAAAAACoAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1026,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"LQAAAHsDAAAAAAAAfwMAAAAAAAAAAAAAYAMAAAAAAABkAwAAAAAAAAAAAABCAwAAAAAAAEYDAAAAAAAAAAAAAEEDAAAAAAAARQMAAAAAAAAAAAAAswIAAAAAAAC3AgAAAAAAAAAAAACLAgAAAAAAAI8CAAAAAAAAAAAAAIMCAAAAAAAAhwIAAAAAAAAAAAAAeAIAAAAAAAB8AgAAAAAAAAAAAABjAgAAAAAAAGcCAAAAAAAAAAAAAFgCAAAAAAAAXAIAAAAAAAAAAAAARQIAAAAAAABJAgAAAAAAAAAAAAA/AgAAAAAAAEMCAAAAAAAAAAAAADQCAAAAAAAAOAIAAAAAAAAAAAAALAIAAAAAAAAwAgAAAAAAAAAAAAAhAgAAAAAAACUCAAAAAAAAAAAAAAwCAAAAAAAAEAIAAAAAAAAAAAAAAQIAAAAAAAAFAgAAAAAAAAAAAADuAQAAAAAAAPIBAAAAAAAAAAAAANkBAAAAAAAA3QEAAAAAAAAAAAAAzgEAAAAAAADSAQAAAAAAAAAAAADGAQAAAAAAAMoBAAAAAAAAAAAAALsBAAAAAAAAvwEAAAAAAAAAAAAApgEAAAAAAACqAQAAAAAAAAAAAACbAQAAAAAAAJ8BAAAAAAAAAAAAAIgBAAAAAAAAjAEAAAAAAAAAAAAAdQEAAAAAAAB5AQAAAAAAAAAAAABCAQAAAAAAAEYBAAAAAAAAAAAAADwBAAAAAAAAQAEAAAAAAAAAAAAAMgEAAAAAAAA2AQAAAAAAAAAAAAAfAQAAAAAAACMBAAAAAAAAAAAAABUBAAAAAAAAGQEAAAAAAAAAAAAABAEAAAAAAAAIAQAAAAAAAAAAAADZAAAAAAAAAN0AAAAAAAAAAAAAAM8AAAAAAAAA0wAAAAAAAAAAAAAAxQAAAAAAAADJAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMIAAAAAAAAAxgAAAAAAAAAAAAAAlQAAAAAAAACZAAAAAAAAAAAAAAByAAAAAAAAAHYAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAATQAAAAAAAABRAAAAAAAAAAAAAAA+AAAAAAAAAEIAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAMwAAAAAAAAA3AAAAAAAAAAAAAAAaAAAAAAAAAB4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAAtAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/MwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/NAAAAAAAAAA0AAAAAAAAAAAAAAAAAPC/PgAAAAAAAAA+AAAAAAAAAAAAAAAAAPC/TQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/YAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/cgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/lQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/wgAAAAAAAADCAAAAAAAAAAAAAAAAAPC/xAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/xQAAAAAAAADFAAAAAAAAAAAAAAAAAPC/zwAAAAAAAADPAAAAAAAAAAAAAAAAAPC/2QAAAAAAAADZAAAAAAAAAAAAAAAAAPC/BAEAAAAAAAAEAQAAAAAAAAAAAAAAAPC/FQEAAAAAAAAVAQAAAAAAAAAAAAAAAPC/HwEAAAAAAAAfAQAAAAAAAAAAAAAAAPC/MgEAAAAAAAAyAQAAAAAAAAAAAAAAAPC/PAEAAAAAAAA8AQAAAAAAAAAAAAAAAPC/QgEAAAAAAABCAQAAAAAAAAAAAAAAAPC/dQEAAAAAAAB1AQAAAAAAAAAAAAAAAPC/iAEAAAAAAACIAQAAAAAAAAAAAAAAAPC/mwEAAAAAAACbAQAAAAAAAAAAAAAAAPC/pgEAAAAAAACmAQAAAAAAAAAAAAAAAPC/uwEAAAAAAAC7AQAAAAAAAAAAAAAAAPC/xgEAAAAAAADGAQAAAAAAAAAAAAAAAPC/zgEAAAAAAADOAQAAAAAAAAAAAAAAAPC/2QEAAAAAAADZAQAAAAAAAAAAAAAAAPC/7gEAAAAAAADuAQAAAAAAAAAAAAAAAPC/AQIAAAAAAAABAgAAAAAAAAAAAAAAAPC/DAIAAAAAAAAMAgAAAAAAAAAAAAAAAPC/IQIAAAAAAAAhAgAAAAAAAAAAAAAAAPC/LAIAAAAAAAAsAgAAAAAAAAAAAAAAAPC/NAIAAAAAAAA0AgAAAAAAAAAAAAAAAPC/PwIAAAAAAAA/AgAAAAAAAAAAAAAAAPC/RQIAAAAAAABFAgAAAAAAAAAAAAAAAPC/WAIAAAAAAABYAgAAAAAAAAAAAAAAAPC/YwIAAAAAAABjAgAAAAAAAAAAAAAAAPC/eAIAAAAAAAB4AgAAAAAAAAAAAAAAAPC/gwIAAAAAAACDAgAAAAAAAAAAAAAAAPC/iwIAAAAAAACLAgAAAAAAAAAAAAAAAPC/swIAAAAAAACzAgAAAAAAAAAAAAAAAPC/QQMAAAAAAABBAwAAAAAAAAAAAAAAAPC/QgMAAAAAAABCAwAAAAAAAAAAAAAAAPC/YAMAAAAAAABgAwAAAAAAAAAAAAAAAPC/ewMAAAAAAAB7AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1036,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1038,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAADwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					1093,
+					1,
+					"insert",
+					{
+						"characters": "r"
+					},
+					"AQAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+AAAAAAAAAD4AAAAAAAAAAAAAAAAMHFA"
+				],
+				[
+					1095,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPgAAAAAAAAA+AAAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1097,
+					1,
+					"insert",
+					{
+						"characters": "print"
+					},
+					"BQAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA+QAAAAAAAAD6AAAAAAAAAAAAAAD6AAAAAAAAAPsAAAAAAAAAAAAAAPsAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAD9AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+AAAAAAAAAD4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1098,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAP0AAAAAAAAA/wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1099,
+					1,
+					"insert",
+					{
+						"characters": "score"
+					},
+					"BQAAAP4AAAAAAAAA/wAAAAAAAAAAAAAA/wAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAEBAAAAAAAAAAAAAAEBAAAAAAAAAgEAAAAAAAAAAAAAAgEAAAAAAAADAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gAAAAAAAAD+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1109,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"BgAAADYDAAAAAAAANwMAAAAAAAAAAAAANwMAAAAAAAA3AwAAAAAAAAEAAAAxmwIAAAAAAACcAgAAAAAAAAAAAACcAgAAAAAAAJwCAAAAAAAAAQAAADFcAgAAAAAAAF0CAAAAAAAAAAAAAF0CAAAAAAAAXQIAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAADAAAAXAIAAAAAAABdAgAAAAAAAAAAAAAAAPC/mwIAAAAAAACcAgAAAAAAAAAAAAAAAPC/NgMAAAAAAAA3AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1138,
+					4,
+					"left_delete",
+					null,
+					"BAAAAPgAAAAAAAAA+AAAAAAAAAAMAAAAcHJpbnQoc2NvcmUp9wAAAAAAAAD3AAAAAAAAAAEAAAAJ8wAAAAAAAADzAAAAAAAAAAQAAAAgICAg8gAAAAAAAADyAAAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAA+AAAAAAAAAAEAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1150,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKcDAAAAAAAAqAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwMAAAAAAACnAwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "2022/2p/input2.txt",
+			"settings":
+			{
+				"buffer_size": 10000,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "2022/2p/dummy2.txt",
+			"settings":
+			{
+				"buffer_size": 11,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "A Y"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAACwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -636,16 +3733,24 @@
 		"selected_items":
 		[
 			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
 				"push",
 				"Git: Push"
 			],
 			[
-				"comm",
+				"comi",
 				"Git: Commit"
 			],
 			[
 				"add",
 				"Git: Add All"
+			],
+			[
+				"comm",
+				"Git: Commit"
 			],
 			[
 				"commit",
@@ -654,10 +3759,6 @@
 			[
 				"ad",
 				"Git: Add All"
-			],
-			[
-				"ter",
-				"Terminus: Open Default Shell in Tab (View)"
 			],
 			[
 				"add ",
@@ -690,10 +3791,6 @@
 			[
 				"git ",
 				"Git: Pull"
-			],
-			[
-				"comi",
-				"Git: Commit"
 			],
 			[
 				"termi",
@@ -998,10 +4095,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/martijuanola/git_repositories/github/AdventOfCode"
+		"/Users/martijuanola/git_repositories/github/AdventOfCode",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/1p",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/2p"
 	],
 	"file_history":
 	[
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/1p/p1_2.py",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/1p/p1_1.py",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/p1/p1_2.py",
+		"/Users/martijuanola/git_repositories/github/AdventOfCode/2022/p1/p1_1.py",
 		"/Users/martijuanola/Desktop/TFGTitle",
 		"/Users/martijuanola/git_repositories/github/UNI-GEOC/4lab/triangulation.js",
 		"/Users/martijuanola/git_repositories/github/UNI-GEOC/4lab/triangulationFP.js",
@@ -1125,11 +4229,7 @@
 		"/Users/martijuanola/Downloads/init.pddl",
 		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/IA-Practica-2-Habitacions/domini.txt",
 		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/IA-Practica-2-Habitacions/operators.pddl",
-		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/IA-Practica-2-Habitacions/facts.pddl",
-		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/Metric-FF/example/domini.txt",
-		"/Users/martijuanola/Downloads/entregaProblemaExtensio4.pddl",
-		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/FF-v2.3/README",
-		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/FF-v2.3/makefile"
+		"/Users/martijuanola/Documents/Uni/3.1/IA - Intel·ligència Artificial/Pràctica 3/IA-Practica-2-Habitacions/facts.pddl"
 	],
 	"find":
 	{
@@ -1147,6 +4247,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"\n\t",
+			"return return"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1168,6 +4271,188 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45554,
+								45559
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "/Users/martijuanola/git_repositories/github/AdventOfCode",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"/bin/bash",
+									"-i",
+									"-l"
+								],
+								"cwd": "/Users/martijuanola/git_repositories/github/AdventOfCode",
+								"default_title": "Login Shell",
+								"env":
+								{
+									"LANG": "en_US.UTF-8",
+									"TERM": "linux",
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 173512.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 173512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2022/2p/p2_1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 498.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2022/2p/input2.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "2022/2p/dummy2.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"auto_name": "A Y",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1177,7 +4462,7 @@
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 44.0
 	},
 	"layout":
 	{
@@ -1303,7 +4588,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 233.0,
 	"status_bar_visible": true,
 	"template_settings":

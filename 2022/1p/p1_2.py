@@ -3,7 +3,7 @@ import queue
 def readInput(inputFile):
 	q = queue.PriorityQueue()
 	
-	f = open('input1.txt', 'r')
+	f = open(inputFile, 'r')
 	elf = 0
 	elfID = 0
 	
@@ -21,7 +21,7 @@ def readInput(inputFile):
 	return q
 
 if __name__ == '__main__':
-	q = readInput('input.txt')
+	q = readInput('input1.txt')
 
 	s = q.get()[0] + q.get()[0] + q.get()[0]
 	print('Sum of top 3 elfs calories: ', -s)
