@@ -1,7 +1,31 @@
 import argparse
 
+def process_line(line):
+	numbers = line.strip("\n").split(":")[1].split('|')
+	winningNumbers = numbers[0]
+	myNumbers = numbers[1]
+
+	winning = set()
+	for num in winningNumbers.split(" "):
+		if num.isnumeric():
+			winning.add(int(num))
+
+	count = 0
+	for num in myNumbers.split(" "):
+		if num.isnumeric() and int(num) in winning:
+			count += 1
+
+	if count == 0:
+		return count
+	return 2**(count-1)
+
+
 def main(inputFile):
-	return -1
+	result = 0
+	with open(inputFile) as f:
+	    for line in f:
+	        result += process_line(line)
+	return result
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
