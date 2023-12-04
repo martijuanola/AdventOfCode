@@ -41,7 +41,7 @@ if __name__ == '__main__':
 	parser.add_argument('-r', type=int, help='The expected result.', nargs='?', required=False)
 	args = parser.parse_args()
 
-	inputFile = "input.txt" if not args.d else "test2.txt"
+	inputFile = "input.txt" if not args.d else "test.txt"
 	print('Using input file \'%s\'.' % inputFile)
 
 	result = main(inputFile)

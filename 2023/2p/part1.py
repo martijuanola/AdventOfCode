@@ -45,7 +45,7 @@ if __name__ == '__main__':
 	parser.add_argument('-blue', type=int, default=0, help='BLUE cubes.', nargs='?', required=False)
 	args = parser.parse_args()
 
-	inputFile = "input.txt" if not args.d else "test1.txt"
+	inputFile = "input.txt" if not args.d else "test.txt"
 	print('Using input file \'%s\'.' % inputFile)
 
 	red = args.red
